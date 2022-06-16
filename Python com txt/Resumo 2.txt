@@ -1,0 +1,2 @@
+	Essa estrutura faz com que o arquivo seja fechado
+automaticamente quando terminarmos de editá-lo

@@ -1,0 +1,5 @@
+Quantidade de Anuncio = 274
+Quantidade de Orgânico = 226
+Quantidade de instagram/facebook = 24
+Quantidade de site = 73
+Quantidade de youtube = 155
