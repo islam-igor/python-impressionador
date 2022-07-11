@@ -47,14 +47,14 @@
 #rodar o código de um programa que fazemos durante o curso que funcione. Exemplo o do outlook de enviar email
 from twilio.rest import Client
 
-account_sid = 'ACf3011255d1965af7f0220aed9cd21cb9'
-auth_token  = 'c73bbdeb57b018f958356cfcc71b2a49'
+account_sid = 'ACf3011255d1965afxxxxxxxxxxxxxxx'
+auth_token  = 'c73bbdeb57b018f95xxxxxxxxx'
 
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
-    to="+5586999550910", # destino
-    from_="+19033296989", # remetente
+    to="+xxxxxxxxxx", # destino
+    from_="+190332xxxxx", # remetente
     body="Oi, Islam, aqui você digita a sua mensagem")
 
 print(message.sid)
